@@ -22,5 +22,6 @@ function doWhileLoop(array){
   }
   do{
     array.pop(maybeTrue());
-  }while 
+  }while (array.length > 0 && maybeTrue());
+  return array;
 }
