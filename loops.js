@@ -21,7 +21,7 @@ function doWhileLoop(array){
     return Math.random()>=0.5;
   }
   do{
-    array.pop(array());
+    array.pop(array);
   }while (array.length > 0 && maybeTrue());
   return array;
 }
